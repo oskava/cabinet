@@ -1,0 +1,119 @@
+.user-cabinet-header {
+   font-size: 20px;
+}
+
+.site-header {
+   border-bottom: 2px solid #26a69a;
+   padding: 25px 0;
+}
+
+.site-title {
+   font-size: 24px;
+   margin: 0;
+}
+
+
+.modal-wrap {
+   position  : fixed;
+   left      : 0;
+   right     : 0;
+   top       : 0;
+   bottom    : 0;
+   background: rgba(0, 0, 0, .5);
+
+   display                : -ms-flexbox;
+   display                : -webkit-flex;
+   display                : flex;
+   -webkit-flex-direction : row;
+   -ms-flex-direction     : row;
+   flex-direction         : row;
+   -webkit-flex-wrap      : nowrap;
+   -ms-flex-wrap          : nowrap;
+   flex-wrap              : nowrap;
+   -webkit-justify-content: center;
+   -ms-flex-pack          : center;
+   justify-content        : center;
+   -webkit-align-content  : stretch;
+   -ms-flex-line-pack     : stretch;
+   align-content          : stretch;
+   -webkit-align-items    : center;
+   -ms-flex-align         : center;
+   align-items            : center;
+}
+
+.modal-project {
+   z-index: 999;
+   position: relative;
+   width        : 250px;
+   /* height    : 320px; */
+   border       : 1px solid #26a69a;
+   border-radius: 12px;
+   box-shadow   : 1px 1px 10px #464545;
+   padding      : 10px;
+   background   : #fff;
+
+   -webkit-order      : 0;
+   -ms-flex-order     : 0;
+   order              : 0;
+   -webkit-flex       : 0 1 auto;
+   -ms-flex           : 0 1 auto;
+   flex               : 0 1 auto;
+   -webkit-align-self : auto;
+   -ms-flex-item-align: auto;
+   align-self         : auto;
+}
+
+.modal-project-close {
+   position: absolute;
+   right   : -15px;
+   top     : -15px;
+}
+
+.modal-project-signup {
+   width: 380px;
+   max-height: 500px;
+   padding: 10px;
+   z-index: 9999;
+}
+
+
+
+.form-slider {
+   width: 730px;
+   max-height: 500px;
+   margin-left: 0;
+   transition: all ease .5s;
+}
+
+.left-50, .right-50 {
+   width: 50%;
+   float: left;
+   /* min-height: 50px; */
+   padding: 10px;
+}
+
+.right-50 {
+   max-height: 470px;
+   overflow-y: scroll;
+}
+
+.read-rules, .read-rules-back {
+   cursor: pointer;
+   text-decoration: underline;
+   color: #26a69a;
+}
+
+.z-index-min {
+   z-index: 0;
+}
+
+.z-index-max {
+   z-index: 9999;
+}
+.form-slider-wrapper {
+   overflow: hidden;
+}
+
+/* .read-rules {
+   display: none;
+} */
