@@ -13,18 +13,15 @@ function showModal() {
    let modalId = this.dataset.modal;
    document.querySelector(modalId).classList.remove('hide');
    document.onkeydown = function (e) {
-      // закрываем окно кнопкой Esc
       if (e.keyCode == 27) closeModal();
    }
 }
 
 document.querySelectorAll('.modal-wrap').forEach(function (e) {
-   // закрываем окно по клику на серой области
    e.onclick = closeModal;
 });
 
 document.querySelectorAll('.modal-project-close').forEach(function (e) {
-   // закрываем окно кнопкой закрыть
    e.onclick = closeModal;
 });
 

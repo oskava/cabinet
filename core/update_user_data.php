@@ -5,7 +5,6 @@ $email= trim($_POST['email']);
 $name= trim($_POST['name']);
 $pass= trim($_POST['pass']);
 $birthday= trim($_POST['birthday']);
-// ----------------- Добавление значения sex -----------------
 $sex= trim($_POST['sex']);
 
 if ($email ==''){

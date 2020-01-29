@@ -4,4 +4,4 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "cabinet";
-// $sex = "";
+?>

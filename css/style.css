@@ -45,7 +45,6 @@
    z-index: 999;
    position: relative;
    width        : 250px;
-   /* height    : 320px; */
    border       : 1px solid #26a69a;
    border-radius: 12px;
    box-shadow   : 1px 1px 10px #464545;
@@ -88,7 +87,6 @@
 .left-50, .right-50 {
    width: 50%;
    float: left;
-   /* min-height: 50px; */
    padding: 10px;
 }
 
@@ -113,7 +111,3 @@
 .form-slider-wrapper {
    overflow: hidden;
 }
-
-/* .read-rules {
-   display: none;
-} */
